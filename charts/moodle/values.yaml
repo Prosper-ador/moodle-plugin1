@@ -12,4 +12,14 @@ moodle:
   persistence:
     enabled: true
     size: 10Gi
-  
+
+postgresql:
+  enabled: false
+  auth:
+    username: moodle
+    password: moodlepassword
+    database: bitnamimoodle
+  primary:
+    persistence:
+      enabled: false  # Disable PVC for local test clusters
+
