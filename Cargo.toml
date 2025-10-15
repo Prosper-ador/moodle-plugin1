@@ -5,6 +5,8 @@ members = [
     "packages/ai_bridge",
 ]
 
+resolver = "3"
+
 [profile.prod]
 inherits = "release"
 lto = true
